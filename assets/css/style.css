@@ -1,0 +1,308 @@
+body {
+    color:#2a2a2a;
+    margin: 0;
+    padding: 0
+}
+
+nav {
+    display: inline-block;
+    float: right;
+
+}
+
+nav ul {
+    list-style-type: none;
+    font-size: 22px;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 1px;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-right: 40px;
+    line-height: 35px;
+}
+
+.header {
+    background: #F3DEF3;
+    width: 100%;
+    height: 80x;
+    padding-top: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    font-family: 'Fredoka One', cursive;
+    font-size: 48px;
+    padding-top: 20px;
+    margin-left: 150px;
+    letter-spacing: 1px;
+}
+
+#subtitle {
+    font-family: 'Nunito', sans-serif;
+    font-size: 26px;
+    margin-left: 370px;
+    letter-spacing: 1px;
+}
+
+a {
+    color: #2a2a2a;
+}
+
+.logo {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    float: left;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.logo:hover {
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.5s ease-in-out 0s;
+    cursor: pointer;
+}
+
+.nav-item {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6a6a6a;
+}
+
+.story-btn {
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    font-family: 'Nunito', sans-serif;
+    color: #2a2a2a;
+    font-size: 22px;
+    letter-spacing: 1px;
+    background-color: #F3DEF3;
+    /* border: 2px solid #2a2a2a; */
+    cursor: pointer;
+    border-radius: 38px;
+    margin-right: 20px;
+    margin-top: 200px;
+    margin-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0px 6px 6px -6px rgba(0,0,0,.4); */
+    box-shadow: 0px 8px 8px -8px #2a2a2a;
+}
+
+.story-btn:hover {
+    background-color: #dfa6df;
+    color: #2a2a2a;
+}
+
+.top-part {
+    position: relative;
+    text-align: center;
+    background: #2a2a2a;
+    overflow: hidden;
+}
+
+.top-part img {
+    opacity: 0.8;
+}
+
+.story-button {
+    position: absolute;
+    top: 20px;
+    right: 200px;
+}
+
+.text-on-pic {
+    position: absolute;
+    top: 100px;
+    right: 135px
+}
+
+#DHG {
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.middle-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 55px;
+}
+
+.image-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 55px; 
+    font-family: 'Fredoka One', cursive;
+    font-size: 26px;
+    letter-spacing: 15px;
+}
+
+.image-card-text {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.pics {
+    width: 400px;
+    height: 400px;
+}
+
+.pics:hover {
+    opacity: 0.7;
+    transform: scale(1.05);
+    transition-duration: .6s;
+}
+
+.friends {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.bottom-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.friends-text {
+    font-family: 'Nunito', sans-serif;
+    font-size: 28px;
+    padding-left: 65px;
+}
+
+.order-btn {
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    font-family: 'Nunito', sans-serif;
+    color: #2a2a2a;
+    font-size: 22px;
+    letter-spacing: 1px;
+    background-color: #F3DEF3;
+    /* border: 2px solid #2a2a2a; */
+    cursor: pointer;
+    border-radius: 38px;
+    margin-left: 45px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 8px 8px -8px #2a2a2a;
+}
+
+.order-btn:hover {
+    background-color: #dfa6df;
+    color: #2a2a2a;
+}
+
+.footer {
+    background: #F3DEF3;
+    width: 100%;
+    height: 80x;
+    margin-top: 55px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+}
+
+.map {
+    text-decoration: none;
+}
+
+#menu {
+    font-family: 'Fredoka One', cursive;
+    font-size: 44px;
+    letter-spacing: 10px;
+    margin-right: 320px;
+}
+
+.top-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+#order-button-2 {
+    margin-right: 60px;
+    margin-top: 20px;
+}
+
+.menu-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.menu-items-prices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-items {
+    font-family: 'Nunito', sans-serif;
+    font-size: 26px;
+    list-style-type: none;
+    margin-right: 100px;
+    line-height: 70px;
+}
+
+.prices {
+    font-family: 'Nunito', sans-serif;
+    font-size: 26px;
+    list-style-type: none;
+    text-align: right;
+    line-height: 70px;
+}
+
+.all-pics {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
